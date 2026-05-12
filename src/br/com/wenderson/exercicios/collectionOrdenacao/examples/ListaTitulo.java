@@ -4,7 +4,7 @@ import java.util.Collections;
 
 import br.com.wenderson.exercicios.collectionOrdenacao.model.Titulo;
 
-public class Main {
+public class ListaTitulo {
     public static void main(String[] args) {
         ArrayList<Titulo> listaTitulos = new ArrayList<>();
         listaTitulos.add(new Titulo("D"));
