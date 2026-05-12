@@ -14,6 +14,8 @@ Atualmente estudando os fundamentos de Java e Programação Orientada a Objetos,
 - Sintaxe e estruturas básicas da linguagem
 - Conceitos de POO (herança, polimorfismo, encapsulamento)
 - Collections e estruturas de dados
+- Ordenação de coleções (Collections.sort)
+- Interface Comparable
 - Casting e conversão de tipos
 - Construtores e boas práticas iniciais
 
@@ -31,6 +33,10 @@ alura-backend-java/
         └── com/
             └── wenderson/
                 └── exercicios/
+                    ├── collectionOrdenacao/    # Ordenação e interface Comparable
+                    │   ├── app/
+                    │   ├── examples/
+                    │   └── model/
                     └── desafio02/
                         ├── casting/          # Exercícios de casting e conversão de tipos
                         │   ├── app/
@@ -48,7 +54,10 @@ alura-backend-java/
 - ✅ Herança e polimorfismo
 - ✅ Casting de objetos
 - ✅ Construtores
-- ✅ Collections (ArrayList, List)
+- ✅ Collections (ArrayList, LinkedList, List)
+- ✅ Ordenação de coleções (Collections.sort)
+- ✅ Interface Comparable
+- ✅ Polimorfismo com List (ArrayList vs LinkedList)
 - ✅ Boas práticas de código
 
 ## 🗺️ Roadmap da Trilha
