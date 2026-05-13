@@ -33,17 +33,22 @@ alura-backend-java/
         └── com/
             └── wenderson/
                 └── exercicios/
-                    ├── collectionOrdenacao/    # Ordenação e interface Comparable
-                    │   ├── app/
-                    │   ├── examples/
-                    │   └── model/
+                    └── collections/
+                        ├── collectionOrdenacao/      # Ordenação e interface Comparable
+                        │   ├── app/
+                        │   ├── examples/
+                        │   └── model/
+                        └── desafiocomprascartao/     # Sistema de compras com cartão
+                            ├── app/                  # Aplicação principal
+                            ├── model/                # Modelos (Compra, CartaoCredito)
+                            └── service/              # Lógica de negócio
                     └── desafio02/
-                        ├── casting/          # Exercícios de casting e conversão de tipos
+                        ├── casting/                  # Exercícios de casting
                         │   ├── app/
                         │   └── models/
-                        ├── collections/      # Trabalhando com listas e coleções
-                        ├── construtores/     # Prática de construtores e inicialização
-                        └── heranca/          # Herança e polimorfismo
+                        ├── collections/              # Collections básicas
+                        ├── construtores/             # Construtores e inicialização
+                        └── heranca/                  # Herança e polimorfismo
 ```
 
 ## 📚 Conteúdos Praticados
@@ -58,6 +63,8 @@ alura-backend-java/
 - ✅ Ordenação de coleções (Collections.sort)
 - ✅ Interface Comparable
 - ✅ Polimorfismo com List (ArrayList vs LinkedList)
+- ✅ Sistema de compras com cartão de crédito (controle de limite, validação)
+- ✅ Encapsulamento e getters
 - ✅ Boas práticas de código
 
 ## 🗺️ Roadmap da Trilha

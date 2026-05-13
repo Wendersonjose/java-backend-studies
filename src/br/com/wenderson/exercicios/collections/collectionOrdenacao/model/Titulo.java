@@ -1,4 +1,4 @@
-package br.com.wenderson.exercicios.collectionOrdenacao.model;
+package br.com.wenderson.exercicios.collections.collectionOrdenacao.model;
 
 public class Titulo implements Comparable<Titulo> {
     public String nome;

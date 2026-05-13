@@ -1,8 +1,8 @@
-package br.com.wenderson.exercicios.collectionOrdenacao.examples;
+package br.com.wenderson.exercicios.collections.collectionOrdenacao.examples;
 import java.util.ArrayList;
 import java.util.Collections;
 
-import br.com.wenderson.exercicios.collectionOrdenacao.model.Titulo;
+import br.com.wenderson.exercicios.collections.collectionOrdenacao.model.Titulo;
 
 public class ListaTitulo {
     public static void main(String[] args) {

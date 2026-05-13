@@ -1,9 +1,9 @@
-package br.com.wenderson.exercicios.collectionOrdenacao.app;
+package br.com.wenderson.exercicios.collections.collectionOrdenacao.app;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.wenderson.exercicios.collectionOrdenacao.model.Titulo;
+import br.com.wenderson.exercicios.collections.collectionOrdenacao.model.Titulo;
 
 public class CollectionsOrdenacaoMain {
     

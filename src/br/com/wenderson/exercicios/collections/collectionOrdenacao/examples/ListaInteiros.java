@@ -1,4 +1,4 @@
-package br.com.wenderson.exercicios.collectionOrdenacao.examples;
+package br.com.wenderson.exercicios.collections.collectionOrdenacao.examples;
 
 import java.util.ArrayList;
 import java.util.Collection;
