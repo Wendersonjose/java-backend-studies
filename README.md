@@ -33,22 +33,27 @@ alura-backend-java/
         └── com/
             └── wenderson/
                 └── exercicios/
-                    └── collections/
-                        ├── collectionOrdenacao/      # Ordenação e interface Comparable
-                        │   ├── app/
-                        │   ├── examples/
-                        │   └── model/
-                        └── desafiocomprascartao/     # Sistema de compras com cartão
-                            ├── app/                  # Aplicação principal
-                            ├── model/                # Modelos (Compra, CartaoCredito)
-                            └── service/              # Lógica de negócio
-                    └── desafio02/
-                        ├── casting/                  # Exercícios de casting
-                        │   ├── app/
-                        │   └── models/
-                        ├── collections/              # Collections básicas
-                        ├── construtores/             # Construtores e inicialização
-                        └── heranca/                  # Herança e polimorfismo
+                    ├── collections/
+                    │   ├── collectionOrdenacao/      # Ordenação e interface Comparable
+                    │   │   ├── app/
+                    │   │   ├── examples/
+                    │   │   └── model/
+                    │   └── desafiocomprascartao/     # Sistema de compras com cartão
+                    │       ├── app/                  # Aplicação principal
+                    │       ├── model/                # Modelos (Compra, CartaoCredito)
+                    │       └── service/              # Lógica de negócio
+                    ├── desafio02/
+                    │   ├── casting/                  # Exercícios de casting
+                    │   │   ├── app/
+                    │   │   └── models/
+                    │   ├── collections/              # Collections básicas
+                    │   ├── construtores/             # Construtores e inicialização
+                    │   └── heranca/                  # Herança e polimorfismo
+                    └── estudoApi/
+                        └── consumindoApi/            # Consumo de APIs externas
+                            ├── receita/              # API TheMealDB (receitas)
+                            ├── google_books/         # API Google Books
+                            └── coincgecko/           # API CoinGecko (criptomoedas)
 ```
 
 ## 📚 Conteúdos Praticados
@@ -66,6 +71,10 @@ alura-backend-java/
 - ✅ Sistema de compras com cartão de crédito (controle de limite, validação)
 - ✅ Encapsulamento e getters
 - ✅ Boas práticas de código
+- ✅ Consumo de APIs REST com HttpClient
+- ✅ Requisições HTTP (GET)
+- ✅ Integração com APIs externas (TheMealDB, Google Books, CoinGecko)
+- ✅ Tratamento de exceções em requisições HTTP
 
 ## 🗺️ Roadmap da Trilha
 
@@ -74,7 +83,7 @@ alura-backend-java/
 - [x] Programação Orientada a Objetos
 - [x] Collections e estruturas de dados
 - [ ] Git e GitHub avançado
-- [ ] Consumo de APIs
+- [x] Consumo de APIs
 - [ ] Serialização JSON
 - [ ] Testes básicos com JUnit
 - [ ] Introdução ao Spring Framework
