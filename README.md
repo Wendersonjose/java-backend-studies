@@ -18,6 +18,10 @@ Atualmente estudando os fundamentos de Java e Programação Orientada a Objetos,
 - Interface Comparable
 - Casting e conversão de tipos
 - Construtores e boas práticas iniciais
+- **Tratamento de exceções (try-catch-finally)**
+- **Exceções personalizadas (checked e unchecked)**
+- **Consumo de APIs REST com HttpClient**
+- **Integração com APIs externas de terceiros**
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -53,28 +57,84 @@ alura-backend-java/
                         └── consumindoApi/            # Consumo de APIs externas
                             ├── receita/              # API TheMealDB (receitas)
                             ├── google_books/         # API Google Books
-                            └── coincgecko/           # API CoinGecko (criptomoedas)
+                            ├── coincgecko/           # API CoinGecko (criptomoedas)
+                            └── exception/            # Tratamento de exceções
+                                ├── DivisaoError.java           # Divisão por zero
+                                ├── github/                     # Consulta GitHub API
+                                │   ├── ConsultaGitHub.java
+                                │   └── ErroConsultaGitHubException.java
+                                └── leitorSenha/                # Validação de senha
+                                    ├── LeitorSenha.java
+                                    └── SenhaInvalidaException.java
 ```
+
+## 🎯 Destaques dos Exercícios
+
+### 🛒 Sistema de Compras com Cartão de Crédito
+Um sistema completo que simula compras com cartão, incluindo:
+- Controle de limite de crédito
+- Validação de compras
+- Ordenação de compras por valor
+- Encapsulamento adequado dos dados
+
+### ⚠️ Tratamento de Exceções
+Implementação de diversos cenários de tratamento de erros:
+- **DivisaoError**: Tratamento de divisão por zero com ArithmeticException
+- **LeitorSenha**: Validador de senha com exceção checked personalizada (SenhaInvalidaException)
+  - Mínimo de 8 caracteres
+  - Ao menos uma letra maiúscula
+  - Ao menos um número
+- **ConsultaGitHub**: Integração com GitHub API incluindo exceção unchecked (ErroConsultaGitHubException)
+  - Validação de nome de usuário
+  - Tratamento de usuário não encontrado (404)
+  - Tratamento de erros HTTP diversos
+
+### 🌐 Consumo de APIs REST
+Integração com múltiplas APIs públicas:
+- **TheMealDB**: Busca de receitas culinárias
+- **Google Books**: Consulta de livros
+- **CoinGecko**: Cotação de criptomoedas
+- **GitHub**: Consulta de perfis de usuários
 
 ## 📚 Conteúdos Praticados
 
+### Fundamentos e POO
 - ✅ Fundamentos de Java (variáveis, operadores, estruturas de controle)
 - ✅ Programação Orientada a Objetos
 - ✅ Classes e objetos
 - ✅ Herança e polimorfismo
 - ✅ Casting de objetos
 - ✅ Construtores
+- ✅ Encapsulamento e getters
+- ✅ Boas práticas de código
+
+### Collections
 - ✅ Collections (ArrayList, LinkedList, List)
 - ✅ Ordenação de coleções (Collections.sort)
 - ✅ Interface Comparable
 - ✅ Polimorfismo com List (ArrayList vs LinkedList)
 - ✅ Sistema de compras com cartão de crédito (controle de limite, validação)
-- ✅ Encapsulamento e getters
-- ✅ Boas práticas de código
-- ✅ Consumo de APIs REST com HttpClient
+
+### Tratamento de Exceções
+- ✅ Try-catch-finally
+- ✅ ArithmeticException (divisão por zero)
+- ✅ Exceções personalizadas (checked exceptions)
+- ✅ Exceções personalizadas (unchecked exceptions)
+- ✅ Herança de Exception vs RuntimeException
+- ✅ Tratamento de múltiplas exceções
+- ✅ Validação com exceções customizadas
+
+### Consumo de APIs REST
+- ✅ HttpClient do Java 11+
 - ✅ Requisições HTTP (GET)
-- ✅ Integração com APIs externas (TheMealDB, Google Books, CoinGecko)
+- ✅ Integração com APIs externas
+  - TheMealDB (receitas)
+  - Google Books (livros)
+  - CoinGecko (criptomoedas)
+  - GitHub API (usuários)
 - ✅ Tratamento de exceções em requisições HTTP
+- ✅ Validação de status HTTP (404, 200, etc.)
+- ✅ IOException e InterruptedException
 
 ## 🗺️ Roadmap da Trilha
 
@@ -84,6 +144,8 @@ alura-backend-java/
 - [x] Collections e estruturas de dados
 - [ ] Git e GitHub avançado
 - [x] Consumo de APIs
+- [x] Tratamento de exceções
+- [x] Exceções personalizadas (checked e unchecked)
 - [ ] Serialização JSON
 - [ ] Testes básicos com JUnit
 - [ ] Introdução ao Spring Framework
@@ -141,9 +203,12 @@ Este repositório serve como registro do meu progresso na trilha de desenvolvime
 
 ## 🔜 Próximos Passos
 
-- Finalizar exercícios de fundamentos e POO
-- Iniciar consumo de APIs externas
-- Aprender serialização e desserialização JSON
+- ~~Finalizar exercícios de fundamentos e POO~~
+- ~~Iniciar consumo de APIs externas~~
+- ~~Aprender tratamento de exceções~~
+- ~~Criar exceções personalizadas~~
+- Aprender serialização e desserialização JSON (Gson, Jackson)
+- Implementar parsing de JSON das APIs consumidas
 - Estudar testes unitários com JUnit
 - Dar os primeiros passos com Spring Framework
 
